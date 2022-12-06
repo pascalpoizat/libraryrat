@@ -9,7 +9,7 @@
 
 ### Getting all links (DOI, ArXiV, ...) from a search
 
-1. search for papers with `"systematic mapping study"` in the title on [DBLP](dblp.org), you can [click here](https://dblp.org/search?q=%20systematic%20mapping%20study%20).
+1. search for papers with `"systematic mapping study"` in the title on [DBLP](https://dblp.org), you can [click here](https://dblp.org/search?q=%20systematic%20mapping%20study%20).
 
 2. export the search in JSON format into file `SMS.json`
 
