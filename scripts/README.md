@@ -27,7 +27,7 @@ https://doi.org/10.1007/s10723-021-09587-7
 
 ### Getting all links (DOI, ArXiV, ...) from several constrained searches
 
-1. search for papers with `"systematic mapping study"` in the Information \& Software Technology journal (`type:Journal_Articles: streamid:journals/infsof:`) by [clicking here](https://dblp.org/search?q=%20systematic%20mapping%20study%20%20type%3AJournal_Articles%3A%20streamid%3Ajournals%2Finfsof%3A). Export as JSON in file `SMS_IST.json`.
+1. search for papers with `"systematic mapping study"` in the Information \& Software Technology journal (`"systematic mapping study" type:Journal_Articles: streamid:journals/infsof:`) by [clicking here](https://dblp.org/search?q=%20systematic%20mapping%20study%20%20type%3AJournal_Articles%3A%20streamid%3Ajournals%2Finfsof%3A). Export as JSON in file `SMS_IST.json`.
 
 2. perform the search search in the Journal of Systems and Software journal (`"systematic mapping study" type:Journal_Articles: streamid:journals/jss:`) by [clicking here](https://dblp.org/search?q=%20systematic%20mapping%20study%20%20type%3AJournal_Articles%3A%20streamid%3Ajournals%2Fjss%3A). Export as JSON in file `SMS_JSS.json`.
 
