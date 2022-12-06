@@ -1,4 +1,15 @@
+# do not track gradle files but for wrapper related ones
 .gradle
 
+# do not track IDE files
+.vscode
+
+# do not track built files
+*.class
 build
 bin
+
+# do not track DBLP files
+# use scripts/dblp_install.sh to get them before building the project
+app/libs/mmdb-*.jar
+app/src/main/resources/dblp-*

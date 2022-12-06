@@ -3,12 +3,22 @@
  */
 package libraryrat.dblp;
 
+import io.vavr.control.Try;
+import org.dblp.mmdb.RecordDbInterface;
+
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+    
+    public static final String XMLFile = "/dblp-2022-12-01.xml";
+    public static final String DTDFile = "/dblp-2019-11-22.dtd";
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
-}
+        System.setProperty("entityExpansionLimit", "10000000");
+        Try<RecordDbInterface> db = Loader.createDb(XMLFile, DTDFile);
+        if (db.isSuccess()) {
+            System.out.println("DBLP can be loaded.");
+        } else {
+            System.out.println("DBLP cannot be loaded.");
+            System.out.println(db);
+
+        }
+    }}
